@@ -57,7 +57,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbluetooth_qti \
     libbtconfigstore \
-    bt_configstore.conf
+    bt_configstore.conf \
+    android.hardware.bluetooth.audio@2.0-impl \
+    audio.bluetooth.default
 
 PRODUCT_PACKAGES += \
     com.qualcomm.qti.bluetooth_audio@1.0 \
