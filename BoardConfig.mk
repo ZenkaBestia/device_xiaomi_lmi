@@ -178,10 +178,11 @@ TARGET_USES_MKE2FS := true
 
 # Sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
-
+include device/qcom/sepolicy/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private-vendor
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
