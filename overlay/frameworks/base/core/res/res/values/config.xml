@@ -749,4 +749,9 @@
         <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
          on the headphone/microphone jack. When false use the older uevent framework. -->
      <bool name="config_useDevInputEventForAudioJack">true</bool>
+
+      <!-- Screen off FOD -->
+     <bool name="config_supportScreenOffFod">true</bool>
+     <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
+
 </resources>
