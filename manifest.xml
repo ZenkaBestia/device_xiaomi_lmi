@@ -42,5 +42,17 @@
         <version>29</version>
         <version>30</version>
     </system-sdk>
->>>>>>> 23fbb13... R Baseline:manifest.xml
+    <hal format="hidl">
+        <name>vendor.qti.hardware.qccsyshal</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IQccsyshal</name>
+            <instance>qccsyshal</instance>
+        </interface>
+        <fqname>@1.0::IQccsyshal/qccsyshal</fqname>
+    </hal>
+    <sepolicy>
+        <version>29.0</version>
+    </sepolicy>
 </manifest>
