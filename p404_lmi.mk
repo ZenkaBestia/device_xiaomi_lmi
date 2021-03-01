@@ -13,6 +13,10 @@ $(call inherit-product, device/xiaomi/lmi/device.mk)
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# GApps
+$(call inherit-product, vendor/google/pixel/config.mk)
+$(call inherit-product, vendor/google/gms/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := p404_lmi
 PRODUCT_DEVICE := lmi
