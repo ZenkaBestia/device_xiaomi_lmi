@@ -176,6 +176,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock
 
+# QTI Common
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    display \
+    perf
+
+
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
