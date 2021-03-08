@@ -6,6 +6,7 @@
 #Inherit from Nusantara common
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 NAD_BUILD_TYPE := OFFICIAL
+TARGET_FOD_ANIMATIONS := true
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
