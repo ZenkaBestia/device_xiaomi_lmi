@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lmi.mk
+    $(LOCAL_DIR)/legion_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lmi-user \
-    lineage_lmi-userdebug \
-    lineage_lmi-eng
+    legion_lmi-user \
+    legion_lmi-userdebug \
+    legion_lmi-eng
