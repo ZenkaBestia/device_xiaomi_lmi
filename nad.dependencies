@@ -10,12 +10,5 @@
     "repository"   : "NusantaraROM-Devices/proprietary_vendor_xiaomi",
     "target_path"  : "vendor/xiaomi",
     "branch"       : "11-lmi"
-  },
-  {
-    "remote"       : "github",
-    "repository"   : "NusantaraROM-Devices/kernel_xiaomi_sm8250",
-    "target_path"  : "kernel/xiaomi/sm8250",
-    "clone-depth"  : "1",
-    "branch"       : "11-los"
   }
 ]
