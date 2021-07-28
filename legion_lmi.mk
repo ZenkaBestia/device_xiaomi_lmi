@@ -15,6 +15,7 @@ $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
 # Legion OS Build
+LEGION_BUILD_TYPE := OFFICIAL
 LEGION_MAINTAINER := 家|Zenka
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.maintainer.name=家|Zenka
