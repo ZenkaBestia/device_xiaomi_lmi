@@ -23,4 +23,7 @@
 
     <!-- Whether to show Battery Health in Settings Option -->
     <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">true</bool>
 </resources>
