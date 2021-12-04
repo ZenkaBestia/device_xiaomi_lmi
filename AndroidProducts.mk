@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_lmi.mk
+    $(LOCAL_DIR)/syberia_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_lmi-userdebug \
-    nad_lmi-eng
+    syberia_lmi-userdebug \
+    syberia_lmi-eng
