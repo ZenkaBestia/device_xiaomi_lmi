@@ -17,6 +17,9 @@ $(call inherit-product, vendor/syberia/common.mk)
 # Inherit Syberia build
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Inherit Gapps build
+$(call inherit-product, vendor/google/gms/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := syberia_lmi
 PRODUCT_DEVICE := lmi
