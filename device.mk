@@ -93,6 +93,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# ANT+
+PRODUCT_PACKAGES += \
+    libnetd_resolv
+
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
