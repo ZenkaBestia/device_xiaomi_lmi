@@ -19,7 +19,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncherReleaseMod
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := NexusLauncherRelease.apk
+LOCAL_SRC_FILES := NexusLauncher/NexusLauncherRelease.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_SYSTEM_EXT_MODULE := true
