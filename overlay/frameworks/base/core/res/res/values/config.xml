@@ -1085,9 +1085,6 @@
     <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
     <integer name="config_udfps_illumination_transition_ms">0</integer>
 
-    <!-- Flag indicating which package name can access DeviceConfig table -->
-    <string name="config_deviceConfiguratorPackageName">com.google.android.gms</string>
-
     <!-- Night display color temperature calibration -->
     <string-array name="config_nightDisplayColorTemperatureCoefficients">
         <!-- R a-coefficient --> <item>0.0</item>
