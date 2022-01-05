@@ -378,10 +378,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
-# Prebuilt Apps
-PRODUCT_PACKAGES += \
-    NexusLauncherReleaseMod
-
 # QMI
 PRODUCT_PACKAGES += \
     libjson
