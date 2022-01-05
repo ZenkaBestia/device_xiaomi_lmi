@@ -380,7 +380,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt Apps
 PRODUCT_PACKAGES += \
-    CustomPixelLauncherOverlay \
     NexusLauncherReleaseMod
 
 # QMI
