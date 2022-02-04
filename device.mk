@@ -165,10 +165,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
-# Google Battery
-PRODUCT_PACKAGES += \
-    vendor.google.google_battery@1.1.vendor
-
 # Google Photos
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/pixel/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
