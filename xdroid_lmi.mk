@@ -11,22 +11,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lmi device
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-# Inherit some common Nusantara stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+# Inherit some common XDroid stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
-# Inherit Nusantara build
-NAD_BUILD_TYPE := OFFICIAL
-USE_GAPPS ?= true
-USE_AOSP_CLOCK := true
-USE_LAWNCHAIR := true
-USE_PIXEL_CHARGING := true
-TARGET_USES_BLUR := true
-TARGET_FOD_ANIMATIONS := true
-TARGET_BOOT_ANIMATION_RES := 1080
-EXTRA_FOD_ANIMATIONS := true
+# Inherit XDroid build
+XDROID_BOOT := 1080
+XDROID_MAINTAINER := ZenkaBestia
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_lmi
+PRODUCT_NAME := xdroid_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi K30 Pro

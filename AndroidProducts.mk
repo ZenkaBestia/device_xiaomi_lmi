@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_lmi.mk
+    $(LOCAL_DIR)/xdroid_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_lmi-userdebug \
-    nad_lmi-eng
+    xdroid_lmi-userdebug \
+    xdroid_lmi-eng
