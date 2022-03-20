@@ -1390,7 +1390,6 @@ vendor/lib/libstreamparser.so
 # Vibrator firmware - MIUI
 vendor/firmware/AcousticGuitar_RTP.bin|143c14ddffbf726fe417f0164549408b3be7acc5
 vendor/firmware/Atlantis_RTP.bin|eff0611a4a9ce6b7cee895c1110ffc90eed7d26a
-vendor/firmware/aw8697_haptic.bin|f78c555af0d5cf6ab59bbfdf7dd5bfc7935ffd0e
 vendor/firmware/aw8697_rtp_1.bin|9f32c9bf0776a566d3254129a028dae9bed76b81
 vendor/firmware/bandage_RTP.bin|1022868a85282277152117f2593ea69d50a9a5e0
 vendor/firmware/Bottle_RTP.bin|d0d0bfc9e4a7856bae17ecf7fb18b6e128ef6b9f
@@ -1512,6 +1511,9 @@ vendor/firmware/vehicle_dacia_RTP.bin|b7062d237ac7fd63134997291b84b27c193fb90f
 vendor/firmware/vehicle_moto_RTP.bin|2b170c938802d26ddc8383280ecc1a65e2b8c53c
 vendor/firmware/vehicle_plane_RTP.bin|349523f5aa7e9cd5ccf68792d854e89608c563ec
 vendor/firmware/Vigor_RTP.bin|1e4315664b65a3ce3827fd8454996254035e8650
+
+# Vibrator Firmware - from Alioth qssi-user-12-SKQ1.211209.001-22.2.9-release-keys
+vendor/firmware/aw8697_haptic.bin|37721cb00ef2e50e6051de104605c061c9ef5f90
 
 # VPP
 vendor/bin/vppservice 
