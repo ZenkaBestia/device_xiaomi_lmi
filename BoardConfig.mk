@@ -76,7 +76,7 @@ DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/xiaomi_manifest.xml
 
 DEVICE_MATRIX_FILE += \
-    device/qcom/common/compatibility_matrix.xml
+    $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # Hacks
 BUILD_BROKEN_DUP_RULES := true
