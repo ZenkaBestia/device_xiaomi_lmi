@@ -283,12 +283,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPALmiFrameworks \
-    AOSPALmiSettings \
-    AOSPALmiSystemUI \
-    LmiFrameworks \
-    LmiSystemUI \
-    FrameworksResTarget \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-krypton \
     WifiResTarget
 
 # Partitions
