@@ -661,7 +661,6 @@ vendor/bin/qti
 vendor/bin/shsusrd 
 vendor/etc/data/dsi_config.xml 
 vendor/etc/data/netmgr_config.xml 
-vendor/etc/init/init.embmssl_server.rc 
 vendor/etc/init/ipacm-diag.rc 
 vendor/etc/init/ipa_fws.rc 
 vendor/etc/init/netmgrd.rc 
