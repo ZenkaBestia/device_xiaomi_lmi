@@ -109,7 +109,7 @@ TARGET_KERNEL_CLANG_VERSION := dora-clang
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := arm-linux-gnueabi-
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lmi
-TARGET_KERNEL_CONFIG := lmi_defconfig
+TARGET_KERNEL_CONFIG := vendor/lmi_user_defconfig
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
