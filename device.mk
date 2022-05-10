@@ -294,10 +294,6 @@ TARGET_BOARD_PLATFORM := kona
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := all
 
-# Recovery
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.flash.recovery=1
-
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.sensors.allow_non_default_discovery=true \
