@@ -756,6 +756,9 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
+# GPS - from zeus SKQ1.211006.001.V13.0.10.0.SLBEUXM
+vendor/lib64/liblocdiagiface.so|2c8a3a51d30fb6239e0e9ac5db1279277905bc8e
+
 # Graphics
 -vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk
 vendor/lib/egl/eglSubDriverAndroid.so
