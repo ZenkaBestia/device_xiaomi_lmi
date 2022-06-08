@@ -277,9 +277,9 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPALmiFrameworks \
-    AOSPALmiSettings \
-    AOSPALmiSystemUI \
+    FlamingoLmiFrameworks \
+    FlamingoLmiSettings \
+    FlamingoLmiSystemUI \
     LmiFrameworks \
     LmiSystemUI \
     FrameworksResTarget \

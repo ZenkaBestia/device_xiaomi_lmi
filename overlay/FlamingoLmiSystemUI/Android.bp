@@ -13,7 +13,7 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "AOSPALmiSettings",
+    name: "FlamingoLmiSystemUI",
     sdk_version: "current",
-    system_ext_specific: true,
+    system_ext_specific: true
 }
